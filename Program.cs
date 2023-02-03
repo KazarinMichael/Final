@@ -1,31 +1,31 @@
 ﻿string[] array = new string[5] { "123ww", "56e7", "hele", "wo3333", "res333" };
-string[] newarr = new string[array. Длина];
+string[] newarr = new string[array. Length];
 void Массив MetodArray(string[])
 {
-    Система. Консоль. Писать("[");
-    для (int i = 0; I < массив. Длина; я++)
+    System. Console. Write("[");
+    for (int i = 0; I < array. Long; i++)
     {
-        if (массив[i]. Длина <= 3)
+        if (array[i]. Long <= 3)
         {
-            newarr[i] = массив[i];
-            Консоль. Write($"{newarr[i]}, ");
+            newarr[i] = array[i];
+            Console. Write($"{newarr[i]}, ");
         }
     }
-    Система. Консоль. Писать("]");
+    System. Console. Write("]");
 }
 
-void Массив PrintArray(string[])
+void Array PrintArray(string[])
 {
-    Система. Консоль. Писать("[");
-    для (int i = 0; I < массив. Длина; я++)
+    System. Console. Write("[");
+    for (int i = 0; I < array. Long; i++)
     {
-        Консоль. Write($"{array[i]}, ");
+        Console. Write($"{array[i]}, ");
     }
-    Система. Консоль. Писать("]");
+    System. Console. Write("]");
 }
-Система. Консоль. WriteLine();
-ПечатьРастра(массив));
-Система. Консоль. Писать("->");
-МетодАршай(массив));
-Система. Консоль. WriteLine();
-Система. Консоль. WriteLine();
+System. Console. WriteLine();
+PrintRaster(array));
+System. Console. Write("->");
+Methodarshay(array));
+System. Console. WriteLine();
+System. Console. WriteLine();
